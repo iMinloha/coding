@@ -1,0 +1,54 @@
+.mb_card{
+    background: rgba(192,192,192,0.4);
+    border-radius: 10px;
+    width: 60%;
+    height: 12cm;
+    text-align: center;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+}
+.mb_main_location{
+    height: 100%;
+    margin-top: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head_img img:target{
+    transform: rotate(-360deg);
+    transition: all 1s;
+    object-fit: cover;
+}
+.head_img img{
+    border-radius: 50%;
+    width: 3cm;
+    height: 3cm;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 10px 10px 50px #888888;
+}
+.text{
+    margin-top: -25px;
+    font-size: xx-large;
+    color: rgba(0,0,0,0.6);
+}
+.mb_docker{
+    display: grid;
+    grid-template-columns: 30% 50% 30%;
+    grid-template-rows: 100% 100%;
+    font-weight: bold;
+    color: rgba(0,0,0,0.7);
+}
+.foot{
+    font-size: xx-large;
+    line-height: 35px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    letter-spacing: 1px;
+    margin-left: -0.5%;
+    text-align: center;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.5));
+    color: #fff;
+}
