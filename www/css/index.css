@@ -1,0 +1,33 @@
+null{
+	font-family: sans-serif;
+	background: url("https://cdn.minloha.cn/www/images/bg4.jpg")  no-repeat center 0px;
+	background-size: cover;
+    background-position: center 0; 
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    -webkit-background-size: cover;  
+    -o-background-size: cover;  
+    -moz-background-size: cover;  
+    -ms-background-size: cover;    
+}
+.back{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+.main_container{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.header{
+    color: slategray;
+}
+.border_img{
+    border-radius: 20px;
+    box-shadow:0 0 9px 3px #000;
+}
